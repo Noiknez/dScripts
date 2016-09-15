@@ -1281,6 +1281,93 @@ towns_translations:
       rule-change: <def[player].name> cambi<&chr[00F3]> la regla <def[rule]> a <def[state]>.
       forced-rule-change: La regla <def[rule]> en tu ciudad fue fijada a <def[state]>.
       rank-change: <def[playername]> ha sido asignado el rango <def[rank]>.
+    french:
+      # command help
+      command-help-info: Affiche cette page.
+      command-info-info: Affiche des information sur votre ville.
+      command-list-info: Affiche une liste de villes existantes.
+      command-create-info: Crée une nouvelle ville.
+      command-teleport-info: Ouvre le menu de téléportation.
+      command-setspawn-info: Gère les points de spawn dans votre ville.
+      command-center-info: Fixe le chunk central de votre ville.
+      command-teleport-info: Vous permet de vous téléporter à divers endroits.
+      command-invite-info: Invite un joueur à votre ville.
+      command-accept-info: Accepte votre invitation en attente.
+      command-leave-info: Vous retire de votre ville actuelle.
+      command-leave-info: Expulse un joueur de votre ville.
+      command-deposit-info: Dépose de l'argent dans votre ville.
+      command-withdraw-info: Préleve de l'argent de votre ville.
+      command-toggle-info: Bascule une certaine règle dans votre ville.
+      command-rank-info: Change un grade d'un joueur.
+      command-claim-info: Annexe le chunk ou vous vous tenez.
+      command-outpost-info: Annexe un avant-poste à votre location.
+      command-unclaim-info: Desanexxe le chunk ou vous vous tenez.
+      command-disband-info: Dissoud votre ville.
+      command-rename-info: Change le nom de votre ville.
+      command-map-info: Montre une carte de votre zone actuelle.
+      command-outline-info: Montre le contour d'un chunk de ville.
+      # command response
+      already-in-town: Vous faite déjà partit d'une ville!
+      not-enough-money-to-create: Vous n'avez pas assez d'argent pour créer une ville. Vous devez avoir $<def[cost]>.
+      not-allowed-create: Vous n'êtes pas autorisé à créer une ville.
+      no-name-specified: Vous devez spécifier un nom pour votre ville!
+      not-in-town: Vous n'êtes pas dans une ville!
+      player-not-in-town: Ce joueur n'est pas dans une ville!
+      not-owner-of-town: Vous n'êtes pas le propriétaire de cette ville.
+      insufficient-rank: Vous n'avez pas le bon rang pour faire cela.
+      invalid-player-specified: Ce joueur n'est pas en ligne!
+      inexistant-player-specified: Ce joueur n'existe pas!
+      target-player-already-in-town: <def[playername]> est déja dans une ville!
+      invited-player: Vous avez invité <def[playername]> à votre ville.
+      invitation-recieved: <def[playername]> vous a invité à rejoindre la ville de <def[townname]>!<&nl>Tapez '<def[command]> accept' pour accepter l'invitation!
+      no-invitations: Vous n'avez aucune invitation à accepter!
+      invalid-invitation: La ville ou vous avez été invité n'existe plus.
+      owner-cant-leave: Vous êtes le propriétaire de cette ville! Vous ne pouvez pas la quitterY. Utilisez <def[command]> disband à la place.
+      player-not-in-your-town: <def[playername]> n'est pas dans votre ville.
+      must-specify-townname: Vous devez spécifier un nom pour votre ville!
+      not-enough-money: Votre ville n'a pas assez d'argent dans la banque.
+      not-enough-money-player: Vous n'avez pas autant cette somme.
+      max-chunks: Votre ville est déjà à sa taille limite de <def[max]> chunks.
+      max-outposts: Votre ville ne peut pas avoir d'avants-poste supplémentaires.
+      chunk-already-claimed-by-you: Ce chunk appartient déja à votre ville.
+      chunk-already-claimed-by-other: Ce chunk est déjà occupé!
+      chunk-not-attached: Vous ne pouvez annexer seulement le terrain autour de votre ville.
+      has-no-chunks: Votre ville n'a pas de chunk.
+      chunk-not-yours: Votre chunk n'appartient pas à votre ville.
+      chunk-is-essential: Vous ne pouvez pas desannexer ce chunk car les chunk autour de cette zone ne sont pas connecté à aucun avant-poste ou chunk central.
+      must-specify-valid-number: Vous devez spécifier un montant valide!
+      withdrew-money: Vous avez prélevé <def[number]> de la banque de ville.
+      invalid-rule: Vous devez spécifier une règle valide! Les règles valide sont <def[rulelist]>
+      invalid-rank: Vous devez spécifier un rang valide! Les rangs valide sont <def[ranklist]>
+      outline-enabled: Vous allez maintenant voir le contour des chunk lorsque vous entrez sur eux.
+      outline-disabled: Vous n'allez plus voir le contor des chunk lorsque vous entrez sur eux.
+      invalid-center-chunk: Vous pouvez seulement fixer le point central de votre ville dans les limites de votre ville.
+      invalid-spawnpoint-location: Vous pouvez seulement fixer un point de spawn dans les limites de votre ville.
+      invalid-type-for-spawnpoint: Vous pouvez seulement fixer un point de spawn pour votre ville ou vos avant-poste! Pas pour <def[type]>!
+      invalid-type-for-center: Vous ne pouvez pas fixer le centre de votre ville sur un chunk <def[type]>!
+      not-outpost-chunk: Cela n'est pas un chunk avant-poste!
+      spawnpoint-updated: Votre point de spawn a été mis à jour.
+      # executable messages
+      town-created: <def[playername]> a crée la ville de <def[townname]>!
+      town-disbanded: La ville de <def[townname]> est tombé en ruine!
+      player-joined-town: <def[playername]> a rejoint votre ville!
+      player-joined-town-personal: Vous avez rejoint la ville de <def[townname]>!
+      player-left-town: <def[playername]> a quitté votre ville!
+      player-left-town-personal: Vous avez quitté la ville de <def[townname]>!
+      player-kicked: <def[playername]> a été expulsé de votre ville!
+      player-kicked-personal: Vous avez été expulsé de la ville de <def[townname]>!
+      town-renamed: Votre ville a été renommé en <def[townname]>
+      bonus-chunks: Il a été attribué à votre ville <def[amount]> chunks bonus.
+      bonus-outpost: Il a été attribué à votre ville <def[amount]> avant-poste bonus.
+      deposit-money: <def[playername]> à déposé $<def[amount]> dans la banque de la ville.
+      bonus-money: Il a été attribué à votre ville $<def[amount]>!
+      chunk_claim: <def[playername]> a annexé un chunk de terrain!
+      chunk-reward-claim: Il vous a été attribué à votre ville un chunk de terrain!
+      chunk_unclaim: <def[playername]> a désannexé un chunk de terrain!
+      chunk-reward-unclaim: Votre ville a perdu un chunk de terrain!
+      rule-change: <def[player].name> a changé la règle <def[rule]> à <def[state]>.
+      forced-rule-change: La règle <def[rule]> dans votre ville a été fixé à <def[state]>.
+      rank-change: <def[playername]> a été assigné le rang de <def[rank]>.
 ########################
 #
 # tags
